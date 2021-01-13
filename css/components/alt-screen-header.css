@@ -1,0 +1,21 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px;
+}
+
+.alt-screen-header-comp {
+  width: 33%;
+  padding: 0px 10px;
+}
+
+.alt-screen-header:nth-child(2) h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.alt-screen-header__icons__search {
+  display: flex;
+  justify-content: flex-end;
+}
