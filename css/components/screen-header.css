@@ -15,13 +15,3 @@
 .screen-header__icons__cog {
   position: relative;
 }
-
-.screen-header__icons__cog span {
-  background-color: tomato;
-  border-radius: 50%;
-  height: 6px;
-  width: 6px;
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-}
