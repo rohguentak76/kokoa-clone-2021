@@ -15,7 +15,10 @@
   font-size: 25px;
   font-weight: bold;
 }
-.alt-screen-header__icons__search {
+.alt-screen-header__icons {
   display: flex;
   justify-content: flex-end;
+}
+.alt-screen-header__icons-bars {
+  margin-left: 30px;
 }

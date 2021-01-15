@@ -1,56 +1,30 @@
 .setting-screen {
-  border-bottom: var(--main-border);
-  padding: 30px;
+  padding: 0px 20px;
 }
 .settings-screen {
-  display: flex;
-  flex-direction: column;
-}
-
-.settings-screen__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-.settings-screen__item:last-child {
-  border-bottom: 1px solid white;
-}
-.settings-screen__item-text {
-  font-size: 25px;
-  font-weight: 600;
-  margin-right: 10px;
-}
-.settings-screen__item-cf-text {
-  font-size: 25px;
-  font-weight: 600;
-  margin-right: 10px;
-}
-.settings-screen__item i {
-  margin-right: 20px;
-  font-size: 30px;
+  padding-bottom: 20px;
 }
 .settings-screen__item-icon {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
-.settings-screen__item-icon .fa-flask {
-  margin-left: 8px;
+.settings-screen__item-icon i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
 }
-.settings-screen__item-icon .fa-info-circle {
-  margin-left: 5px;
+.settings-screen__item-icon-column {
+  display: flex;
 }
-.settings-screen__item-icon .fa-comment {
-  margin-right: 15px;
-}
-.settings-screen__item-icon .fa-tv {
+.settings-screen__item-icon span {
+  font-weight: 600;
   margin-right: 10px;
 }
-.settings-screen__item-icon .fa-brush {
-  margin-right: 25px;
-}
 .settings-screen__item-cf-text {
-  color: var(--half-grey);
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
 }
