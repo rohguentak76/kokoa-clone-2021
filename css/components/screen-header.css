@@ -3,7 +3,7 @@
   padding: var(--horizontal-space);
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin: 15px 0px;
 }
 .screen-header__title {
   font-size: 32px;

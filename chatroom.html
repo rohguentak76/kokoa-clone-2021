@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatroom - KokoaTalk</title>
+  </head>
+  <body class="chatroom-body">
+    <div class="status-bar">
+      <div class="status-bar__colume">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--To do : wifi icon-->
+      </div>
+      <div class="status-bar__colume">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__colume">
+        <span class="status-bar-cloume__baterry_span">75%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!--batter and litening icon-->
+      </div>
+    </div>
+    <header class="alt-screen-header">
+      <div class="alt-screen-header-comp">
+        <div class="alt-screen-header__back-space">
+          <a href="chats.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="alt-screen-header-comp">
+        <h1 class="alt-screen-header__title">Lee hye min</h1>
+      </div>
+      <div class="alt-screen-header-comp">
+        <span class="alt-screen-header__icons">
+          <div class="alt-screen-header__icons-search">
+            <i class="fas fa-search fa-2x"></i>
+          </div>
+          <div class="alt-screen-header__icons-bars">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+        </span>
+      </div>
+    </header>
+
+    <main class="chatroom-screen">
+      <div class="chatroom-screen-date">
+        <span class="chatroom-screen-date-text">Tuesday, June 30, 2020</span>
+      </div>
+      <div class="chatroom-screen-user">
+        <div class="chatroom-screen-user-component-you">
+          <img
+            src="anything.png"
+            class="chatroom-screen-user-component__avatar user-component__avatar user-component__avatar--sm"
+          />
+          <div class="chatroom-screen-user-component__text-you">
+            <span class="chatroom-screen-user-component__name">lee hye min</span>
+            <div class="chatroom-screen-user-component__content">
+                <span class="chatroom-screen-user-component__chat">Hi!</span>
+                <span class="chatroom-screen-user-component__time">21:27</span>
+            </div>
+            <!--   <h6 class="user-component__subtitle">hello i'm tack</h6>-->
+          </div>
+          
+        </div>
+      <div class="chatroom-screen-user-component-me">
+        <div class="chatroom-screen-user-component__text-me">
+            <div class="chatroom-screen-user-component__content">
+                <span class="chatroom-screen-user-component__chat">What's up?</span>
+                <span class="chatroom-screen-user-component__time">21:27</span>
+                  <!--   <h6 class="user-component__subtitle">hello i'm tack</h6>-->
+            </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-beam fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/f998d0238e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
