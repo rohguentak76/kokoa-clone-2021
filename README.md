@@ -10,6 +10,7 @@ https://rohguentak.github.io/kokoa-clone-2021/
 # change code
 
     1. change and commit in master branch
+    2. push master
     2. checkout gh-pages and update from master (merge from master)
     3. push gh-pages
 
