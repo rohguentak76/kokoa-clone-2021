@@ -15,3 +15,6 @@ https://rohguentak.github.io/kokoa-clone-2021/
     3. push gh-pages
 
 make kakao's page using html and css to study basic concept of html and css (web programming)
+
+
+test git
